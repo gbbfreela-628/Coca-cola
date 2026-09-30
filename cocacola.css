@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    background: linear-gradient(red,pink,red);
+}
+
+.header{
+    display: flex;
+    height: 20vh;
+    width: 100vw;
+ 
+}
+
+.caixa1{
+    display: flex;
+    height: 15vh;
+    justify-content: start;
+    align-items: center;
+    left: 50px;
+    position: relative;
+   
+}
+
+.menu{
+    display: flex;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+
+}
+.caixa2{
+   
+    display: flex;
+    width: 90vw;
+    z-index: 10px;
+    left: 200px;
+    top: 40px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    width: 7vw;
+    height: 30vh;
+    top: 43vh;
+    position: absolute;
+    left: 35vw;
+    font-size: 40px;
+    color: white;
+}
+
+.degrade{
+    display: flex;
+    z-index: -1;
+    position: absolute;
+    left: 15vw;
+    top: 20vh;
+}
+
+.coquinha{
+    display: flex;
+    z-index: 1000;
+    position: absolute;
+    left: 35vw;
+    top: 20vh;
+}
+
+.caixa3{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    left: 1500px;
+    top: 100;
+    position: absolute;
+}
+
+.footer{
+    display: flex;
+    height: 20vh;
+    width: 100vw;
+    position: absolute;
+    top:  90vh;
+    left: 33vw;
+
+}
+
+.map{
+    display: flex;
+    position: absolute;
+    top: 100vh;
+    right: 10px;
+    width: 100vw;
+    height: 20vh;
+}
